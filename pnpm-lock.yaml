@@ -19,6 +19,9 @@ devDependencies:
   eslint:
     specifier: 8.57.0
     version: 8.57.0
+  typescript:
+    specifier: ^5.5.3
+    version: 5.5.3
 
 packages:
 
