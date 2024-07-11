@@ -10,20 +10,21 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@radix-icons/vue": "^1.0.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
     "nuxt": "^3.12.3",
-    "vue": "latest",
+    "radix-vue": "^1.9.1",
     "shadcn-nuxt": "^0.10.4",
     "tailwind-merge": "^2.4.0",
     "tailwindcss-animate": "^1.0.7",
-    "@radix-icons/vue": "^1.0.0",
-    "radix-vue": "^1.9.1",
-    "class-variance-authority": "^0.7.0",
-    "clsx": "^2.1.1"
+    "vue": "latest"
   },
   "devDependencies": {
     "@nuxt/eslint": "^0.3.13",
     "@nuxtjs/tailwindcss": "^6.12.1",
     "eslint": "8.57.0",
+    "prettier": "^3.3.2",
     "typescript": "^5.5.3"
   }
 }
