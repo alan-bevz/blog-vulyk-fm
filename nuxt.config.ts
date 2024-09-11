@@ -13,7 +13,7 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "shadcn-nuxt",
     '@nuxt/image',
-    'nuxt-lucide-icons'
+    '@nuxt/icon'
   ],
   shadcn: {
     prefix: 'U',
