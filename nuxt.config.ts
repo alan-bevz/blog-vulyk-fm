@@ -12,7 +12,8 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     "@nuxtjs/tailwindcss",
     "shadcn-nuxt",
-    '@nuxt/image'
+    '@nuxt/image',
+    'nuxt-lucide-icons'
   ],
   shadcn: {
     prefix: 'U',
