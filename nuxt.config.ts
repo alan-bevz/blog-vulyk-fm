@@ -8,7 +8,12 @@ export default defineNuxtConfig({
       enabled: true
     }
   },
-  modules: ['@nuxt/eslint', "@nuxtjs/tailwindcss", "shadcn-nuxt"],
+  modules: [
+    '@nuxt/eslint',
+    "@nuxtjs/tailwindcss",
+    "shadcn-nuxt",
+    '@nuxt/image'
+  ],
   shadcn: {
     prefix: 'U',
     componentDir: './components/ui'
